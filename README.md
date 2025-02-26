@@ -13,11 +13,17 @@ This project implements an authentication system using Flask and Redis. Addition
 📌 Task 1: Static Profile Page
 
 ✅ Implemented a static profile page using HTML + CSS.
+
 ✅ The page contains a heading, text, and an image.
+
 ✅ The design was chosen freely.
+
 ✅ The static page is served at the root ('/') and later redirected.
+
 ✅ Static resources (CSS, images) are properly served.
+
 ✅ Used `render_template()` for rendering.
+
 ✅ `/` redirects to `/login`, which further redirects to `/profile` after authentication.
 
 📌 Task 2: Authentication System with Database
@@ -25,18 +31,27 @@ This project implements an authentication system using Flask and Redis. Addition
 Basic Requirements:
 
 ✅ Application listens on `localhost:5000`.
+
 ✅ Login page is rendered at `http://localhost:5000/login`.
+
 ✅ Upon successful authentication, users are redirected to `/profile`.
+
 ✅ `/profile` is accessible only for authenticated users.
+
 ✅ User credentials are stored in Redis.
 
 Advanced Requirements:
 
 ✅ Registration feature implemented (`/register`).
+
 ✅ Passwords are hashed using `bcrypt`.
+
 ✅ Logout functionality.
+
 ❌ Password change feature is missing.
+
 ❌ Profile picture updates are not available (default profile picture is used).
+
 ✅ Profile information can be updated.
 
 Challenging Part:
